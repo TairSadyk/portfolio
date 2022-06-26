@@ -2,19 +2,26 @@ body {
   color: $color-grey-lt-1;
   font-weight: 400;
   // font-family: 'Arapey', serif;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.7;
 }
 .heading-1 {
-  font-size: 4rem;
-  letter-spacing: 1.6px;
-  font-weight: 400;
-  display: inline-block;
+  // font-family: 'Arapey', serif;
+  // font-style: italic;
+  font-size: 3.2rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+  // display: inline;
 }
+// .subheading-1 {
+//   font-size: 3.5rem;
+//   font-family: 'Arapey', serif;
+//   font-style: italic;
+//   // display: inline;
+//   margin: 0 0.5rem 0;
+// }
 .subheading-1 {
-  font-size: 5rem;
-  font-family: 'Arapey', serif;
-  font-style: italic;
+  color: $color-primary;
 }
 .heading-2 {
   font-family: 'Arapey', serif;
